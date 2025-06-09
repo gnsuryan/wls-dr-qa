@@ -5,6 +5,6 @@ wls_test_results_ctl: "{{ test_base_dir }}/results"
 
 buildout_ctl: "{{ test_base_dir }}/build_out"
 
-odx_wlstest_zip_download_url: 'https://objectstorage.us-phoenix-1.oraclecloud.com/p/HCIdoTW7V9YY6WJhcEjGCBAnO3cmnoLC0GZHLtvRfdYhHM80q7Yokq-j9v4RrXSu/n/odx-pre-customer/b/myBucket/o/wlstest.zip'
+odx_wlstest_zip_download_url: 'https://objectstorage.us-phoenix-1.oraclecloud.com/p/HXC_S6XNsansZvO1CLUdd7-ECYIqRbqstr6rkMhsHRIHsIDHwcabHhljvbkc9VQK/n/odx-pre-customer/b/myBucket/o/wlstest.zip'
 
 global_lb_ip: "{{ hostvars[groups['loadbalancer_vm'][0]]['inventory_hostname'] }}"

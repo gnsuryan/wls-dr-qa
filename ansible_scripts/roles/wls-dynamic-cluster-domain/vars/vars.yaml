@@ -68,10 +68,10 @@ replicationWebAppFileName: '{{ javaee_version }}/replicationwebapp.war'
 sessionCounterAppName: 'sessionCounterApp'
 sessionCounterAppFileName: '{{ javaee_version }}/SessionCounterApp.war'
 
-db_wallet_zip_download_url: 'https://objectstorage.us-phoenix-1.oraclecloud.com/p/lFfv_J5D3YpH599hkY6Fxb9Qpn4Dt7cci_GQJny-AZ8qvQ8ipvJaivwe7u7SqpDA/n/odx-pre-customer/b/myBucket/o/Wallet_jrfrcu.zip'
+db_wallet_zip_download_url: 'https://objectstorage.us-phoenix-1.oraclecloud.com/p/qYzSjJGV1SMI09lzDhm1EcvA6ReEf3r264MQ5femP8pFldX6-wqHN6lODFjdooKq/n/odx-pre-customer/b/myBucket/o/Wallet_wlsqaguruatpdb.zip'
 db_wallet_dir: '/u01/app/atp_db/wallets/atp_db_wallet'
-db_wallet_alias: 'jrfrcu_medium'
-db_wallet_zip_file_name: 'Wallet_jrfrcu.zip'
+db_wallet_alias: 'wlsqaguruatpdb_medium'
+db_wallet_zip_file_name: 'Wallet_wlsqaguruatpdb.zip'
 
 datasource_name: 'myDatasource'
 datasource_jndiName: 'jdbc/myDatasource'
