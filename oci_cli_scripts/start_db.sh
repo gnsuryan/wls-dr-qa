@@ -19,7 +19,7 @@ fi
 CMD="oci db autonomous-database list --compartment-id $OCI_TF_COMPARTMENT_ID --query 'data[?\"display-name\"==\`$DB_NAME\` && \"lifecycle-state\"==\`AVAILABLE\`].id'"
 DB_OCID=$(eval $(echo "$CMD | grep ocid | sed 's/\"//g' | sed 's/ //g'"))
 
-if [ ! -z "$DB_OCI" ]; then
+if [ ! -z "$DB_OCID" ]; then
     echo "Database ${DB_NAME} with $DB_OCID is already in status AVAILABLE"
     exit 0
 fi
